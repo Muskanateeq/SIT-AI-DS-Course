@@ -1,0 +1,12 @@
+{
+  "label": "Module 06 · MLOps",
+  "position": 15,
+  "link": {
+    "type": "generated-index",
+    "title": "Module 06 · MLOps",
+    "description": "Weeks 27–30. Move machine-learning systems from notebooks into reproducible, observable production services.",
+    "slug": "/mlops"
+  },
+  "collapsible": true,
+  "collapsed": true
+}

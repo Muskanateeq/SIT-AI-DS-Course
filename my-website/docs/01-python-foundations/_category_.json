@@ -1,0 +1,12 @@
+{
+  "label": "Module 01 · Python Foundations",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "title": "Module 01 · Python Foundations",
+    "description": "Weeks 2–6. Build the programming foundation needed for data science, machine learning, and AI development.",
+    "slug": "/python-foundations"
+  },
+  "collapsible": true,
+  "collapsed": false
+}

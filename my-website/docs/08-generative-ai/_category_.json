@@ -1,0 +1,12 @@
+{
+  "label": "Module 08 · Generative AI",
+  "position": 17,
+  "link": {
+    "type": "generated-index",
+    "title": "Module 08 · Generative AI",
+    "description": "Weeks 35–38. Understand modern language models and build grounded applications with prompting, adaptation, and retrieval.",
+    "slug": "/generative-ai"
+  },
+  "collapsible": true,
+  "collapsed": true
+}

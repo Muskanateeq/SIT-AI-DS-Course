@@ -1,0 +1,146 @@
+.heroBanner {
+  padding: 6.5rem 0 5.5rem;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 12% 20%, rgba(45, 212, 191, 0.17), transparent 28%),
+    radial-gradient(circle at 88% 12%, rgba(129, 140, 248, 0.22), transparent 32%),
+    linear-gradient(135deg, #07111f 0%, #0c1730 52%, #172554 100%);
+  color: white;
+}
+
+.heroBanner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.16;
+  background-image: linear-gradient(rgba(255,255,255,.12) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.12) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(to bottom, black, transparent 88%);
+}
+
+.heroGrid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(320px, .8fr);
+  align-items: center;
+  gap: 5rem;
+}
+
+.heroCopy h1 {
+  margin: 1rem 0 1.25rem;
+  max-width: 760px;
+  color: white;
+  font-size: clamp(3rem, 6vw, 5.6rem);
+  line-height: .98;
+  letter-spacing: -.055em;
+}
+
+.eyebrow {
+  display: inline-flex;
+  padding: .45rem .8rem;
+  border: 1px solid rgba(153, 246, 228, .32);
+  border-radius: 999px;
+  background: rgba(15, 118, 110, .18);
+  color: #99f6e4;
+  font-size: .78rem;
+  font-weight: 760;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.heroSubtitle {
+  max-width: 650px;
+  color: #cbd5e1;
+  font-size: clamp(1.08rem, 2vw, 1.28rem);
+  line-height: 1.72;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.secondaryButton {
+  color: #e2e8f0 !important;
+  border-color: rgba(226, 232, 240, .35) !important;
+  background: rgba(255, 255, 255, .06) !important;
+}
+
+.stats {
+  display: flex;
+  gap: 2.4rem;
+  margin-top: 2.75rem;
+  color: #94a3b8;
+}
+
+.stats div {display: flex; flex-direction: column;}
+.stats strong {color: white; font-size: 1.45rem; line-height: 1;}
+.stats span {margin-top: .4rem; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase;}
+
+.heroVisual {
+  position: relative;
+  width: min(430px, 90vw);
+  aspect-ratio: 1;
+  justify-self: center;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(45, 212, 191, .14), transparent 62%);
+}
+
+.orbitOne,
+.orbitTwo {
+  position: absolute;
+  inset: 15%;
+  border: 1px solid rgba(148, 163, 184, .35);
+  border-radius: 50%;
+}
+
+.orbitTwo {inset: 29%; border-style: dashed; border-color: rgba(94, 234, 212, .45);}
+
+.coreMark {
+  position: absolute;
+  inset: 39%;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(153, 246, 228, .75);
+  border-radius: 30%;
+  background: linear-gradient(145deg, #14b8a6, #4f46e5);
+  box-shadow: 0 0 60px rgba(45, 212, 191, .34);
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 850;
+  letter-spacing: -.08em;
+}
+
+.heroVisual span {
+  position: absolute;
+  padding: .48rem .78rem;
+  border: 1px solid rgba(148, 163, 184, .28);
+  border-radius: .75rem;
+  background: rgba(15, 23, 42, .85);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .24);
+  color: #e2e8f0;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.nodeOne {top: 8%; left: 39%;}
+.nodeTwo {top: 44%; right: 0;}
+.nodeThree {bottom: 4%; left: 42%;}
+.nodeFour {top: 45%; left: -2%;}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {padding: 4.5rem 0 4rem;}
+  .heroGrid {grid-template-columns: 1fr; gap: 3rem;}
+  .heroVisual {width: min(360px, 82vw);}
+}
+
+@media screen and (max-width: 560px) {
+  .heroBanner {padding: 3.5rem 0;}
+  .stats {gap: 1.4rem;}
+  .heroVisual {width: 300px;}
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is supervised learning?",
+    "expected": "answer",
+    "topic": "machine-learning"
+  },
+  {
+    "question": "Why should features be scaled before KNN?",
+    "expected": "answer",
+    "topic": "machine-learning"
+  },
+  {
+    "question": "What is PCA used for?",
+    "expected": "answer",
+    "topic": "machine-learning"
+  },
+  {
+    "question": "How does retrieval-augmented generation work?",
+    "expected": "answer",
+    "topic": "generative-ai"
+  },
+  {
+    "question": "What is today's weather in Karachi?",
+    "expected": "refuse",
+    "topic": "out-of-book"
+  },
+  {
+    "question": "Who won the latest cricket match?",
+    "expected": "refuse",
+    "topic": "out-of-book"
+  },
+  {
+    "question": "Give me a pasta recipe.",
+    "expected": "refuse",
+    "topic": "out-of-book"
+  }
+]
+

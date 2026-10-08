@@ -1,0 +1,12 @@
+{
+  "label": "Module 04 · Machine Learning",
+  "position": 13,
+  "link": {
+    "type": "generated-index",
+    "title": "Module 04 · Machine Learning",
+    "description": "Weeks 15–21. Build reliable supervised and unsupervised learning workflows from preprocessing through evaluation.",
+    "slug": "/machine-learning"
+  },
+  "collapsible": true,
+  "collapsed": true
+}

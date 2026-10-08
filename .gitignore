@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp*/
+.test-tmp/
+.tmp/
+pytest-cache-files-*/
+.ruff_cache/
+.venv/
+venv/
+
+# Secrets
+.env
+backend/.env
+cred.txt
+.vercel/
+
+# Frontend generated files
+my-website/node_modules/
+my-website/build/
+my-website/.docusaurus/
+my-website/.cache-loader/
+my-website/.swc-cache/
+
+# Local vector storage
+qdrant_storage/

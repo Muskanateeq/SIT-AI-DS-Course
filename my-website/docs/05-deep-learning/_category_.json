@@ -1,0 +1,12 @@
+{
+  "label": "Module 05 · Deep Learning",
+  "position": 14,
+  "link": {
+    "type": "generated-index",
+    "title": "Module 05 · Deep Learning",
+    "description": "Weeks 22–26. Learn neural-network foundations and apply them to images, text, and sequential data.",
+    "slug": "/deep-learning"
+  },
+  "collapsible": true,
+  "collapsed": true
+}

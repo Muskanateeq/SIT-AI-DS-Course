@@ -1,0 +1,12 @@
+{
+  "label": "Module 09 · Agentic AI",
+  "position": 18,
+  "link": {
+    "type": "generated-index",
+    "title": "Module 09 · Agentic AI",
+    "description": "Weeks 39–41. Design AI systems that plan, use tools, retain useful state, and collaborate safely.",
+    "slug": "/agentic-ai"
+  },
+  "collapsible": true,
+  "collapsed": true
+}

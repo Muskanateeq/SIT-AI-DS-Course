@@ -1,0 +1,12 @@
+{
+  "label": "Module 02 · Python for Data Science",
+  "position": 11,
+  "link": {
+    "type": "generated-index",
+    "title": "Module 02 · Python for Data Science",
+    "description": "Weeks 7–10. Use NumPy, Pandas, and visualization libraries to prepare, explore, and communicate data.",
+    "slug": "/python-for-data-science"
+  },
+  "collapsible": true,
+  "collapsed": true
+}

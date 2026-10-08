@@ -1,0 +1,12 @@
+{
+  "label": "Module 03 · Statistics and Math for ML",
+  "position": 12,
+  "link": {
+    "type": "generated-index",
+    "title": "Module 03 · Statistics and Math for ML",
+    "description": "Weeks 11–14. Develop the mathematical intuition needed to reason about data and model training.",
+    "slug": "/statistics-and-math"
+  },
+  "collapsible": true,
+  "collapsed": true
+}

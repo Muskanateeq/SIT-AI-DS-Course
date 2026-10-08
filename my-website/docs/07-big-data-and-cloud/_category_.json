@@ -1,0 +1,12 @@
+{
+  "label": "Module 07 · Big Data and Cloud",
+  "position": 16,
+  "link": {
+    "type": "generated-index",
+    "title": "Module 07 · Big Data and Cloud",
+    "description": "Weeks 31–34. Process data at distributed scale and understand the cloud services that support data and ML workloads.",
+    "slug": "/big-data-and-cloud"
+  },
+  "collapsible": true,
+  "collapsed": true
+}
