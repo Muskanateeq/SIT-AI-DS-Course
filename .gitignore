@@ -25,3 +25,5 @@ my-website/.swc-cache/
 
 # Local vector storage
 qdrant_storage/
+.env.local
+.env.*.local
